@@ -1,7 +1,12 @@
 import Image from "next/image";
+import NavBar from "./NavBar";
+import Hero from "./Hero";
 
 export default function Home() {
   return (
-  <div>hi</div>
+    <div >
+      <NavBar />
+      <Hero />
+    </div>
   );
 }

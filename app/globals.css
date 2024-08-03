@@ -2,3 +2,103 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --custom-color: rgba(146, 158, 176, 1);
+  --gradient-3: linear-gradient(
+    to right,
+    #945dd6 0%,
+    #6978d1 50%,
+    #13adc7 100%
+  );
+}
+.icons {
+  width: 27px;
+  height: 27px;
+}
+
+.container-profile {
+  position: relative;
+  display: inline-block;
+  padding: 2px;
+  border-radius: 50%;
+  background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
+}
+
+.container-profile::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #13adc7;
+  border-radius: 50%;
+  filter: blur(20px);
+  z-index: -1;
+}
+.profile-glow {
+  position: absolute;
+  height: 164px;
+  width: 164px;
+  top: 70%;
+  left: 70%;
+  border-radius: 50%;
+  background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
+}
+/* .profile-glow-2 {
+  position: relative;
+  border-radius: 50%;
+  height: 532px;
+  width: 532px;
+  right: 10%;
+  background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
+}
+.profile-glow-2::before {
+  content: "";
+  position: absolute;
+
+  background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
+
+  border-radius: 50%;
+  z-index: -1;
+  margin: -10px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+} */
+
+.profile-image {
+  border-radius: 50%;
+  display: block;
+  position: relative;
+}
+.text {
+  font-size: 64px;
+  background: var(--gradient-3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-hero {
+  font-size: 64px;
+}
+.download-button {
+  background: var(--gradient-3);
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  width: 226px;
+  height: 78px;
+  font-size: 18px;
+  box-shadow: 0 40px 100px -23px #13adc7;
+}
+
+.download-button:hover {
+  opacity: 0.8;
+}
+.gray {
+  color: var(--custom-color);
+}
