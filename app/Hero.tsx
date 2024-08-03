@@ -6,7 +6,7 @@ export default function Hero() {
     <div className="flex items-center justify-around mt-48">
       <div className="">
         <p className="text font-semibold max-w-prose mb-4  ">
-          Hello,I'm Armel Munyaneza,
+          Hello,I&apos;m Armel Munyaneza,
         </p>
         <p className=" text-white mb-4 text-hero font-semibold  ">
           Software Engineer
