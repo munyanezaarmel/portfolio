@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
-import { Inter,Poppins } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
+import Cursor from "./components/Cursor";
 
-const poppins = Poppins({ 
+const poppins = Poppins({
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"]
+  weight: ["400", "500", "600", "700"],
 });
 
 export const metadata: Metadata = {
@@ -19,7 +20,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="bg-back font-poppins">
-      <body className={poppins.className}>{children}</body>
+      <body className={poppins.className}>
+        <Cursor />
+        {children}
+      </body>
     </html>
   );
 }

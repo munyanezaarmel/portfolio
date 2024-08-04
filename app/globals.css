@@ -11,11 +11,18 @@
     #13adc7 100%
   );
 }
+
 .icons {
   width: 27px;
   height: 27px;
 }
 
+.cursor {
+  position: fixed;
+  pointer-events: none;
+  box-shadow: 0 40px 100px 23px #13adc7;
+  z-index: 9999;
+}
 .container-profile {
   position: relative;
   display: inline-block;
@@ -40,33 +47,53 @@
   position: absolute;
   height: 164px;
   width: 164px;
-  top: 70%;
-  left: 70%;
+  top: 60%;
+  left: 60%;
   border-radius: 50%;
   background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
+  box-shadow: 0 40px 50px -23px #13adc7;
 }
-/* .profile-glow-2 {
-  position: relative;
+.profile-glow-2 {
+  position: absolute;
   border-radius: 50%;
   height: 532px;
   width: 532px;
   right: 10%;
-  background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
+  background: #0f1624;
 }
 .profile-glow-2::before {
-  content: "";
   position: absolute;
-
-  background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
-
   border-radius: 50%;
-  z-index: -1;
-  margin: -10px;
+  background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
+  content: "";
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-} */
+  z-index: -1;
+  margin: -1px;
+}
+
+.card {
+  position: absolute;
+
+  height: auto;
+  width: 90%;
+  background: #0f1624;
+  border-radius: 25px;
+}
+.card::before {
+  position: absolute;
+  border-radius: 25px;
+  background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  margin: -1px;
+}
 
 .profile-image {
   border-radius: 50%;
@@ -101,4 +128,31 @@
 }
 .gray {
   color: var(--custom-color);
+}
+.button {
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 60px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+  width: 226px;
+  height: 78px;
+  font-size: 18px;
+
+  
+}
+
+.back-gradient {
+  background: var(--gradient-3);
+}
+.shadow-button{
+  box-shadow: 0 40px 100px -23px #13adc7;
+}
+.button-second{
+  border: 1px solid white;
+}
+
+.button:hover {
+  opacity: 0.8;
 }

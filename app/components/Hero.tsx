@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="flex items-center justify-around mt-48">
+    <div className="flex items-center justify-around mt-48 mb-64">
       <div className="">
         <p className="text font-semibold max-w-prose mb-4  ">
           Hello,I&apos;m Armel Munyaneza,
