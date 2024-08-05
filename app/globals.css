@@ -45,8 +45,8 @@
 }
 .profile-glow {
   position: absolute;
-  height: 164px;
-  width: 164px;
+  height: 112px;
+  width: 112px;
   top: 60%;
   left: 60%;
   border-radius: 50%;
@@ -56,11 +56,35 @@
 .profile-glow-2 {
   position: absolute;
   border-radius: 50%;
-  height: 532px;
-  width: 532px;
+  height: 366px;
+  width: 366px;
   right: 10%;
   background: #0f1624;
 }
+@media (min-width: 768px) {
+  .profile-glow-2 {
+    position: absolute;
+    border-radius: 50%;
+    height: 532px;
+    width: 532px;
+    right: 10%;
+    background: #0f1624;
+  }
+  .profile-glow {
+    position: absolute;
+    height: 164px;
+    width: 164px;
+    top: 60%;
+    left: 60%;
+    border-radius: 50%;
+    background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
+    box-shadow: 0 40px 50px -23px #13adc7;
+  }
+
+  
+}
+
+
 .profile-glow-2::before {
   position: absolute;
   border-radius: 50%;
@@ -99,7 +123,11 @@
   border-radius: 50%;
   display: block;
   position: relative;
+  width: 50vw; 
+  height: auto; 
+  max-width: 300px;
 }
+
 .text {
   
   background: var(--gradient-3);
@@ -170,4 +198,15 @@
 
 .text-1{
   color: #13adc7;
+}
+
+@media (min-width: 640px) {
+
+ 
+}
+
+
+
+@media (min-width: 1024px) {
+ 
 }

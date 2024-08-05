@@ -30,9 +30,9 @@ const experiences = [
 
 export default function About() {
   return (
-    <div className="flex justify-center items-center flex-col ml-40 mb-40 ">
+    <div className="flex justify-center md:items-center items-start flex-col ml-40 mb-40 mt-48 ">
       <h3 className="text-4xl text-white font-semibold mb-12">About me</h3>
-      <div className="bg-gray-900 p-6 rounded-lg w-[900px] mb-8 ">
+      <div className="bg-gray-900 p-6 rounded-lg lg:w-[900px] w-[400px]  mb-8 ">
         <p className="gray">
           As a dedicated software engineer, I bring a strong problem-solving
           mindset and technical proficiency to every project. With hands-on
