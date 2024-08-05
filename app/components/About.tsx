@@ -41,12 +41,12 @@ export default function About() {
         </p>
 
         <p className="gray pt-4">
-          With a passion for frontend development, I've dedicated my efforts to
+          With a passion for frontend development, I&apos;ve dedicated my efforts to
           crafting seamless and visually stunning user interfaces
         </p>
 
         <p className="gray pt-4">
-          Let's connect and discuss how my skills can contribute to the success
+          Let&apos;s connect and discuss how my skills can contribute to the success
           of your projects
         </p>
         <p className="gray pt-4 pb-4">I build awesome products using:</p>
