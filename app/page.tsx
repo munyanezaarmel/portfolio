@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
@@ -7,19 +8,20 @@ import Contact from "./components/Contact";
 
 export default function Home() {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen ">
       <NavBar />
-      <Hero />
-      <div id="about">
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="about">
         <About />
-      </div>
-
-      <div id="projects">
+      </section>
+      <section id="projects">
         <Projects />
-      </div>
-      <div id="contact">
+      </section>
+      <section id="contact">
         <Contact />
-      </div>
+      </section>
     </div>
   );
 }
