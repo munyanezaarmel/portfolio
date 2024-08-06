@@ -35,7 +35,7 @@ export default function Hero() {
       </div>
       <div className="md:ml-40 md:mt-0 mt-44 md:mx-0 mx-4">
       <a download href="/Armel Munyaneza-new-cv.pdf">
-        <button className="download-button w-36 h-12 md:w-60 md:h-20 ">
+        <button className="download-button button ">
           Download cv
         </button>
       </a>

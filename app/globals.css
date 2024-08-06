@@ -16,6 +16,9 @@
   width: 27px;
   height: 27px;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 .cursor {
   position: fixed;

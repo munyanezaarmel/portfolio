@@ -17,8 +17,8 @@ const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({
   totalYears,
 }) => {
   return (
-    <div className="relative">
-      <div className="bg-gray-900 p-6 rounded-lg w-[800px]">
+    <div className="relative flex justify-center items-center flex-col">
+      <div className="bg-gray-900 p-6 rounded-lg lg:w-[50%] w-[90%] ">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text text-xl font-semibold">Experience</h2>
           <span className="text-white">{totalYears} Years</span>
@@ -27,11 +27,11 @@ const ExperienceTimeline: React.FC<ExperienceTimelineProps> = ({
           {experiences.map((exp, index) => (
             <li key={index} className="mb-6 ml-4">
               <div className="absolute w-3 h-3 back-gradient rounded-full -left-1.5 border border-gray-900"></div>
-              <div className="flex justify-between items-center">
+              <div className="flex md:flex-row flex-col justify-between items-start md:items-center ">
                 <h3 className="text-lg font-semibold text-white">
                   {exp.company}
                 </h3>
-                <time className="text-sm font-normal leading-none text-gray-400">
+                <time className="text-sm font-normal md:my-0 my-4 leading-none text-gray-400">
                   {exp.startDate} - {exp.endDate}
                 </time>
               </div>

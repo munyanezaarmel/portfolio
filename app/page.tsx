@@ -10,10 +10,16 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <NavBar />
       <Hero />
-      <About />
+      <div id="about">
+        <About />
+      </div>
 
-      <Projects />
-      <Contact />
+      <div id="projects">
+        <Projects />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
     </div>
   );
 }
