@@ -3,11 +3,11 @@ import Link from "next/link";
 
 export default function Projects() {
   return (
-    <div className="md:ml-40 ml-4 px-4 md:px-0">
+    <div className="md:ml-40 ml-4 px-4 md:px-0 mt-12 lg:mt-20">
       <h3 className="mb-8 text-xl md:text-4xl text-white font-semibold">
         Projects
       </h3>
-      <div className="card flex flex-col lg:flex-row justify-between items-start lg:items-center px-8">
+      <div className="card flex flex-col lg:flex-row lg:gap-12 justify-between items-start lg:items-center px-8">
         <div className="max-w-prose gray font-medium text-lg flex flex-col gap-4 w-full lg:w-1/2 mb-8 lg:mb-0">
           <h1 className="text-white text-2xl mt-4">ShopEase</h1>
           <p className="gray text-sm md:text-lg">

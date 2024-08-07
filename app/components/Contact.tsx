@@ -8,9 +8,13 @@ export default function Contact() {
       <div className=" order-1 sm:order-1">
         <p className="text md:text-xl text-sm">Feel free to contact me</p>
       </div>
-
-      <div className="flex md:gap-20 gap-8 md:text-lg text-nowrap text-sm font-medium md:col-span-1 order-3 sm:order-3 ">
-        <p className="text-white md:text-xl text-sm">munyaarmel61@gmail.com</p>
+      <div className="flex md:gap-20 gap-8 md:text-lg text-nowrap text-sm font-medium md:col-span-1 order-3 sm:order-3">
+        <a
+          href="mailto:munyaarmel61@gmail.com"
+          className="text-white md:text-xl text-sm flex items-center gap-2 "
+        >
+          munyaarmel61@gmail.com
+        </a>
       </div>
 
       <div className="flex gap-8 items-center  md:order-3 order-2">

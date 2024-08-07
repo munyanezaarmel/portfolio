@@ -83,10 +83,7 @@ html {
     background: linear-gradient(to right, #945dd6, #6978d1, #13adc7);
     box-shadow: 0 40px 50px -23px #13adc7;
   }
-
-  
 }
-
 
 .profile-glow-2::before {
   position: absolute;
@@ -103,7 +100,6 @@ html {
 
 .card {
   position: relative;
-
 
   width: 90%;
   background: #0f1624;
@@ -126,13 +122,12 @@ html {
   border-radius: 50%;
   display: block;
   position: relative;
-  width: 50vw; 
-  height: auto; 
+  width: 50vw;
+  height: auto;
   max-width: 300px;
 }
 
 .text {
-  
   background: var(--gradient-3);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -170,8 +165,6 @@ html {
   width: 226px;
   height: 78px;
   font-size: 18px;
-
-  
 }
 
 .center {
@@ -184,10 +177,10 @@ html {
 .back-gradient {
   background: var(--gradient-3);
 }
-.shadow-button{
+.shadow-button {
   box-shadow: 0 40px 100px -23px #13adc7;
 }
-.button-second{
+.button-second {
   border: 1px solid white;
 }
 
@@ -195,21 +188,29 @@ html {
   opacity: 0.8;
 }
 
-.text-others{
+.text-others {
   color: #6978d1;
 }
 
-.text-1{
+.text-1 {
   color: #13adc7;
 }
 
 @media (min-width: 640px) {
-
- 
 }
 
-
-
 @media (min-width: 1024px) {
- 
+}
+.capitalize-sentences {
+  text-transform: lowercase;
+}
+
+.capitalize-sentences::first-letter,
+.capitalize-sentences::after {
+  text-transform: uppercase;
+}
+
+.capitalize-sentences::after {
+  content: ". ";
+  font-size: 0;
 }
