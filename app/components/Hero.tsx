@@ -33,7 +33,7 @@ export default function Hero() {
           <div className="profile-glow"></div>
           <Image
             src="/photo.jpg"
-            alt="Armel Munyaneza Photo"
+            alt="Armel Munyaneza - Software Developer"
             width={301}
             height={301}
             className="profile-image filter grayscale"
