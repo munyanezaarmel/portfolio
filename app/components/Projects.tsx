@@ -9,9 +9,9 @@ export default function Projects() {
       </h3>
       <div className="card flex flex-col lg:flex-row lg:gap-12 justify-between items-start lg:items-center px-8">
         <div className="max-w-prose gray font-medium text-lg flex flex-col gap-4 w-full lg:w-1/2 mb-8 lg:mb-0">
-          <h1 className="text-white text-2xl mt-4">ShopEase</h1>
+          <h1 className="text-white text-2xl mt-4">Mark8</h1>
           <p className="gray text-sm md:text-lg">
-            This web showcases the development of modern web applications using
+            This E-commerce web showcases the development of modern E-commerce web applications using
             Next.js. The project aims to deliver a seamless user experience for
             viewing and purchasing products
           </p>
