@@ -20,7 +20,7 @@ export default function Hero() {
             desktop applications. Additionally, I can handle deployment tasks.
           </p>
           <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
-            <a download href="/Armel Munyaneza-new-cv.pdf">
+            <a download href="/Armel Munyaneza-RESUME.pdf">
               <button className="download-button button lg:mx-0  lg:mb-0 mb-12  ">
                 Download cv
               </button>
