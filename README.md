@@ -7,6 +7,7 @@ Welcome to my developer portfolio! This project showcases my skills and projects
 - **Framework**: [Next.js](https://nextjs.org/)
 - **Language**: [TypeScript](https://www.typescriptlang.org/)
 - **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animation**: [Framer motion](https://www.framer.com/motion/introduction/)
 
 ## 🌟 Features
 
