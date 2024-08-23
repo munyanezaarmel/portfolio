@@ -36,7 +36,7 @@ export default function Hero() {
             alt="Armel Munyaneza - Software Developer"
             width={301}
             height={301}
-            className="profile-image filter grayscale"
+            className="hover:scale-[1.025] transition-all duration-300 ease-in  profile-image filter grayscale"
           />
         </div>
       </div>

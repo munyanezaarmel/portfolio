@@ -104,6 +104,7 @@ html {
   width: 90%;
   background: #0f1624;
   border-radius: 25px;
+  
 }
 .card::before {
   position: absolute;
@@ -116,6 +117,7 @@ html {
   bottom: 0;
   z-index: -1;
   margin: -1px;
+
 }
 
 .profile-image {

@@ -1,5 +1,6 @@
 import React from "react";
 import ExperienceTimeline from "./ExperienceTimeline";
+import { motion } from "framer-motion";
 
 const experiences = [
   {
@@ -34,7 +35,16 @@ export default function About() {
       <h3 className="md:text-4xl md:ml-0 ml-4 text-xl text-white font-semibold mb-12 md:text-center text-start md:mt-48 mt-20">
         About me
       </h3>
-      <div className="flex md:justify-center md:ml-0  md:items-center items-start flex-col ">
+      <motion.div
+        initial={{ y: 50 }}
+        animate={{
+          y: 0,
+        }}
+        viewport={{ amount: 0.5 }}
+        whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        transition={{ duration: 0.5, ease: "easeIn", delay: 0.1 * 1 }}
+        className="flex md:justify-center md:ml-0  md:items-center items-start flex-col "
+      >
         <div className="bg-gray-900 p-6 md:mx-0 mx-4 rounded-lg lg:w-[50%] w-[90%]   mb-8 ">
           <p className="gray md:text-lg text-sm">
             As a dedicated software engineer, I bring a strong problem-solving
@@ -89,11 +99,20 @@ export default function About() {
             </p>
           </span>
         </div>
-      </div>
+      </motion.div>
 
-      <div className="">
+      <motion.div
+        className=""
+        initial={{ y: 50 }}
+        animate={{
+          y: 0,
+        }}
+        viewport={{ amount: 0.5 }}
+        whileHover={{ y: -10, transition: { duration: 0.2 } }}
+        transition={{ duration: 0.5, ease: "easeIn", delay: 0.1 * 1 }}
+      >
         <ExperienceTimeline experiences={experiences} totalYears={3} />
-      </div>
+      </motion.div>
     </div>
   );
 }
