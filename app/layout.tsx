@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { Inter, Poppins } from "next/font/google";
 import "./globals.css";
 import Cursor from "./components/Cursor";
+import { Analytics } from "@vercel/analytics/react";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
     <html lang="en" className="bg-back font-poppins">
       <body className={poppins.className}>
         <Cursor />
+        <Analytics />
         {children}
       </body>
     </html>
