@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export default function Hero() {
+  const [imageLoaded, setImageLoaded] = useState(false);
+  const hiddenMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 30px, rgba(0,0,0,1) 30px, rgba(0,0,0,1) 30px)`;
+  const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba(0,0,0,0) 0px, rgba(0,0,0,1) 0px, rgba(0,0,0,1) 30px)`;
   return (
     <div className="">
       <div className=" lg:flex lg:items-center justify-center items-center flex-col flex lg:flex-row lg:justify-around lg:mt-48 mt-20  ">
@@ -31,13 +35,28 @@ export default function Hero() {
         <div className="container-profile lg:mb-0 md:mb-12">
           <div className="profile-glow-2 "></div>
           <div className="profile-glow"></div>
-          <Image
-            src="/photo.jpg"
-            alt="Armel Munyaneza - Software Developer"
-            width={301}
-            height={301}
-            className="hover:scale-[1.025] transition-all duration-300 ease-in  profile-image filter grayscale"
-          />
+          <motion.div
+            // initial={false}
+            // animate={
+            //   imageLoaded
+            //     ? { WebkitMaskImage: visibleMask, maskImage: visibleMask }
+            //     : { WebkitMaskImage: hiddenMask, maskImage: hiddenMask }
+            // }
+            // transition={{ duration: 1, delay: 0.5 }}
+          >
+            <Image
+              src="/photo.jpg"
+              alt="Armel Munyaneza - Software Developer"
+              width={301}
+              height={301}
+              blurDataURL="/photo.jpg"
+              onLoad={() => setImageLoaded(true)}
+              quality={100}
+              priority={true}
+              placeholder="blur"
+              className="hover:scale-[1.025] transition-all duration-300 ease-in  profile-image filter grayscale"
+            />
+          </motion.div>
         </div>
       </div>
       <div className="md:ml-40 md:mt-0 mt-44 md:mx-0 mx-4"></div>
