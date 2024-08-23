@@ -95,11 +95,9 @@ export default function Projects() {
           viewport={{ amount: 0.5 }}
           whileHover={{ y: -10, transition: { duration: 0.2 } }}
           transition={{ duration: 0.5, ease: "easeIn", delay: 0.1 * index }}
+          key={index}
         >
-          <div
-            key={index}
-            className=" card flex flex-col lg:flex-row lg:gap-12 justify-between items-start lg:items-center px-8 mb-12"
-          >
+          <div className=" card flex flex-col lg:flex-row lg:gap-12 justify-between items-start lg:items-center px-8 mb-12">
             <div className="max-w-prose gray font-medium text-lg flex flex-col gap-4 w-full lg:w-1/2 mb-8 lg:mb-0">
               <h1 className="text-white text-2xl mt-4">{project.title}</h1>
               <p className="gray text-sm md:text-md leading-relaxed">
