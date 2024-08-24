@@ -82,7 +82,7 @@ const visibleMask = `repeating-linear-gradient(to right, rgba(0,0,0,0) 0px, rgba
 export default function Projects() {
   const [imageLoaded, setImageLoaded] = useState(false);
   return (
-    <div className="md:ml-40 ml-4 px-4 md:px-0 mt-12 lg:mt-20">
+    <div className="md:ml-40  px-4 md:px-0 mt-12 lg:mt-20">
       <h3 className="mb-8 text-xl md:text-4xl text-white font-semibold">
         Projects
       </h3>

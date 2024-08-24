@@ -6,12 +6,12 @@ export default function Contact() {
   return (
     <div className=" md:flex md:justify-around md:items-center  grid-cols-2 grid gap-y-4  md:px-0 px-5 mt-40 justify-center items-center  mb-8 ">
       <div className=" order-1 sm:order-1">
-        <p className="text md:text-xl text-sm text-center md:text-start">Feel free to contact me</p>
+        <p className="text md:text-xl text-sm text-center md:text-start text-nowrap ">Feel free to contact me</p>
       </div>
-      <div className="flex justify-center  md:gap-20 gap-8 md:text-lg text-nowrap text-sm font-medium md:col-span-1 order-3 sm:order-3">
+      <div className="md:px-0 px-3 md:text-lg text-nowrap text-sm font-medium md:col-span-1 order-3 sm:order-3">
         <a
           href="mailto:munyaarmel61@gmail.com"
-          className="text-white md:text-xl text-sm flex items-center gap-2 "
+          className="text-white md:text-xl  text-sm "
         >
           munyaarmel61@gmail.com
         </a>

@@ -100,12 +100,17 @@ html {
 
 .card {
   position: relative;
-
   width: 90%;
   background: #0f1624;
   border-radius: 25px;
   
 }
+@media (max-width: 640px) {
+ .card{
+  width: 100%;
+ }
+}
+
 .card::before {
   position: absolute;
   border-radius: 25px;
