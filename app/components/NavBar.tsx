@@ -39,10 +39,10 @@ export default function NavBar() {
           </ScrollLink>
         </div>
         <div className="flex gap-8 items-center   justify-center  md:order-3 order-2">
-          <Link href={"https://www.linkedin.com/in/armel-munyaneza-4b30a8201/"}>
+          <Link href={"https://www.linkedin.com/in/armel-munyaneza-4b30a8201/"} target="_blank">
             <FaLinkedin className="md:w-7 w-6 h-6 md:h-7 text-white" />
           </Link>
-          <Link href={"https://github.com/munyanezaarmel"}>
+          <Link href={"https://github.com/munyanezaarmel"} target="_blank">
             <FaGithub className="md:w-7 md:h-7 w-6 h-6  text-white" />
           </Link>
         </div>

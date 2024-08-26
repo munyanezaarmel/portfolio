@@ -5,21 +5,21 @@ import { motion } from "framer-motion";
 const experiences = [
   {
     company: "Knack Inc",
-    position: "software Enginner - Full-time",
-    startDate: "July 2023 ",
+    position: "Software Engineer - Full-time",
+    startDate: "Jul 2023 ",
     endDate: "Present",
   },
   {
     company: "ironji",
-    position: "software Enginner intern - Full-time",
+    position: "Software Engineer intern - Full-time",
     startDate: "May 2023",
-    endDate: "July 2023",
+    endDate: "Jul 2023",
   },
   {
     company: "oneuptime",
     position: "open source developer - Full-time",
-    startDate: "sep 2022",
-    endDate: "June 2023",
+    startDate: "Sep 2022",
+    endDate: "Jun 2023",
   },
   {
     company: "Andela",

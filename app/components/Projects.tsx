@@ -125,9 +125,9 @@ export default function Projects() {
                   </div>
                 ))}
               </div>
-              <div className="flex flex-col sm:flex-row gap-4 md:mb-4">
+              <div className="flex justify-center items-center md:items-start md:justify-start flex-col sm:flex-row gap-4 md:mb-4">
                 <Link href={project.livePreviewUrl} target="_blank">
-                  <button className="button back-gradient shadow-button w-full ">
+                  <button className=" button back-gradient shadow-button w-full ">
                     Live Preview
                   </button>
                 </Link>

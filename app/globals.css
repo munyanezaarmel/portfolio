@@ -155,6 +155,19 @@ html {
   font-size: 18px;
   box-shadow: 0 40px 100px -23px #13adc7;
 }
+@media (max-width: 768px) {
+  .download-button {
+    width: 156px;
+    height: 55px;
+    font-size: 14px;
+  }
+  .button{
+    width: 156px;
+    height: 55px;
+    font-size: 14px;
+  }
+}
+
 
 .download-button:hover {
   opacity: 0.8;

@@ -26,7 +26,7 @@ export default function Hero() {
           <div className="flex flex-col justify-center items-center md:justify-start md:items-start">
             <a download href="/Armel Munyaneza-RESUME.pdf">
               <button className="download-button button lg:mx-0  lg:mb-0 mb-12  ">
-                Download cv
+                Download CV
               </button>
             </a>
           </div>
