@@ -15,6 +15,7 @@ Welcome to my developer portfolio! This project showcases my skills and projects
 - **Interactive UI**: Smooth animations and interactions.
 - **Performance Optimized**: Fast loading times and optimized performance.
 - **SEO Friendly**: Built-in SEO features to enhance visibility on search engines.
+- **pwa**
 
 ## 🚧 Installation and Setup
 
