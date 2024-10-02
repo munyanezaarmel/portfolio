@@ -45,7 +45,7 @@ export default function Hero() {
             // transition={{ duration: 1, delay: 0.5 }}
           >
             <Image
-              src="/photo.jpg"
+              src="/armel.jpeg"
               alt="Armel Munyaneza - Software Developer"
               width={301}
               height={301}
