@@ -4,6 +4,30 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 const projects = [
   {
+    "title": "Gahigi - AI Career Coach",
+    "description": 
+      "Meet Gahigi, your personal AI career coach. Designed to help young professionals in Rwanda, Gahigi offers personalized guidance and practical tools to kick-start your career. Whether you're preparing for interviews, building essential skills, or exploring the job market, Gahigi is your virtual mentor. Powered by AI, Gahigi provides tailored career advice, skill-building exercises, and interview simulations to boost your confidence and employability.",
+    "features": [
+      "Interview Practice: Simulates job interviews and offers constructive feedback.",
+      "Skill-Building Exercises: Interactive scenarios to develop essential workplace skills.",
+      "Personalized Career Advice: Tailored guidance based on individual strengths and interests.",
+      "Job Market Insights: Updates on entry-level opportunities in Rwanda's job market."
+    ],
+    "technologies": [
+      { "name": "Next.js", "icon": "/nextdotjs.svg" },
+      { "name": "NestJS", "icon": "/nestjs.svg" },
+      { "name": "Material UI", "icon": "/mui.svg" },
+      { "name": "LLaMA", "icon": "/ollama.svg" },
+      { "name": "Mixtral AI", "icon": "/Mistral_AI.png" },
+      { "name": "Prompt Engineering", "icon": "/chatbot.svg" },
+      { "name": "GROQ API", "icon": "/groq.png" }
+    ],
+    "livePreviewUrl": "https://gahigi.ini.rw/",
+    "githubUrl": "https://github.com/munyanezaarmel/Gahigi",
+    "imageSrc": "/gahigi.jpeg"
+},
+
+  {
     title: "UniConnect",
     description:
       "UniConnect is a dynamic social media platform designed for students and individuals to connect, share ideas, and engage with their communities. Built with a modern tech stack, UniConnect offers a rich set of features to foster interaction, creativity, and collaboration. Whether you're posting updates, liking and commenting on posts, following peers, or engaging in direct messaging, UniConnect provides a seamless and intuitive user experience across devices",
