@@ -4,10 +4,16 @@ import { motion } from "framer-motion";
 
 const experiences = [
   {
+    company: "The EnAccess Foundation",
+    position: "Software Engineer - Full-time",
+    startDate: "Oct 2024 ",
+    endDate: "Present",
+  },
+  {
     company: "Knack Inc",
     position: "Software Engineer - Full-time",
     startDate: "Jul 2023 ",
-    endDate: "Present",
+    endDate: "Oct 2024",
   },
   {
     company: "ironji",
