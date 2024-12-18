@@ -23,7 +23,7 @@ const projects = [
       { "name": "GROQ API", "icon": "/groq.png" }
     ],
     "livePreviewUrl": "https://gahigi.ini.rw/",
-    "githubUrl": "https://github.com/munyanezaarmel/Gahigi",
+    "githubUrl": "https://github.com/Gaahigi/gahigi-monorepo",
     "imageSrc": "/gahigi.jpeg"
 },
 
