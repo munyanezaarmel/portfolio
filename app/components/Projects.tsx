@@ -3,6 +3,33 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 import { useState } from "react";
 const projects = [
+    
+  {
+    "title": "Hemascan – AI-Powered Anemia Detection",
+    "description": 
+      "Meet Hemascan — a mobile-first, AI-powered health tool designed to detect anemia non-invasively using just a smartphone and a fingertip sensor. Created with a mission to make healthcare more accessible in Rwanda and other low-resource settings, Hemascan uses computer vision and real-time vitals to provide fast, needle-free screening.Whether you're a student, health worker, or someone in a rural area without access to labs, Hemascan gives you instant insights into your hemoglobin status — all in one seamless, voice-guided experience.",
+    "features": [
+      "Conjunctival Image Analysis: Uses smartphone camera and AI (YOLO + MobileNet) to detect signs of anemia from eye-region images.",
+      "Vitals Integration: Reads real-time SpO₂ and heart rate using a MAX30100 sensor via ESP32.",
+      "Voice-Guided Diagnosis: Provides spoken guidance during image capture using MediaPipe + Web Speech API.",
+      "Medical Recommendations: Generates tailored health advice using Groq's LLaMA 3.1 model.",
+      "PDF Reports: Automatically generates a downloadable diagnosis report for users."
+    ],
+    "technologies": [
+      { "name": "Next.js", "icon": "/nextdotjs.svg" },
+      { "name": "YOLOv8 + MobileNet", "icon": "/yolo.svg" },
+      { "name": "Tailwind CSS", "icon": "/tailwindcss.svg" },
+      { "name": "LLaMA", "icon": "/ollama.svg" },
+      { "name": "IOT", "icon": "/iot.png" },
+      { "name": " Web Speech API + MediaPipe", "icon": "/mediapipe.png" },
+      { "name": "GROQ API", "icon": "/groq.png" }
+    ],
+    "livePreviewUrl": "https://hemascan-smoky.vercel.app/",
+    "githubUrl": "https://github.com/munyanezaarmel/Hemascan",
+    "imageSrc": "/hemascan.jpeg"
+},
+
+
   {
     "title": "Gahigi - AI Career Coach",
     "description": 
